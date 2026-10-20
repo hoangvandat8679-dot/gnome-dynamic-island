@@ -1,0 +1,94 @@
+/* Dynamic Island Apple Glassmorphism theme */
+.di-island {
+  background-color: rgba(18, 18, 24, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  spacing: 12px;
+}
+
+.di-art {
+  background-size: cover;
+  background-color: #1c1c1e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.di-text { max-width: 260px; }
+.di-title { color: #ffffff; font-weight: bold; font-size: 10pt; }
+.di-artist { color: #a8a8b2; font-size: 9pt; margin-top: 1px; }
+
+/* Media Scrubber / Timeline */
+.di-media-scrubber {
+  spacing: 6px;
+  margin-top: 4px;
+}
+.di-scrubber-bar {
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.22);
+}
+.di-scrubber-fill {
+  height: 4px;
+  border-radius: 2px;
+  background-gradient-direction: horizontal;
+  background-gradient-start: #ff9f0a;
+  background-gradient-end: #ff453a;
+}
+.di-time-label {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 8pt;
+  font-feature-settings: "tnum";
+}
+
+/* EQ visualizer */
+.di-eq { height: 18px; spacing: 3px; }
+.di-bar {
+  width: 3px;
+  border-radius: 2px;
+  background-gradient-direction: vertical;
+  background-gradient-start: #ffc24a;
+  background-gradient-end: #ff6a00;
+}
+
+/* Controls */
+.di-btn { color: #fff; padding: 7px; border-radius: 999px; }
+.di-btn:hover { background-color: rgba(255, 255, 255, 0.16); }
+.di-btn:active { background-color: rgba(255, 255, 255, 0.28); }
+.di-btn StIcon { icon-size: 20px; }
+
+/* Persistent Indicators */
+.di-indicators { spacing: 6px; min-height: 26px; }
+.di-chip { padding: 3px 7px; border-radius: 999px; background-color: rgba(255, 255, 255, 0.08); }
+.di-chip:hover { background-color: rgba(255, 255, 255, 0.16); }
+.di-chip-box { spacing: 5px; }
+.di-chip-icon { icon-size: 16px; color: #fff; }
+.di-chip-label { color: #fff; font-weight: bold; font-size: 9.5pt; font-feature-settings: "tnum"; }
+
+/* Toasts */
+.di-toast { spacing: 12px; padding: 0 4px 0 6px; min-height: 26px; }
+.di-toast-icon { icon-size: 22px; color: #fff; }
+.di-toast-label { color: #fff; font-weight: bold; font-size: 10pt; max-width: 300px; }
+.di-level { height: 8px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.2); }
+.di-level-fill { height: 8px; border-radius: 4px; background-color: #fff; }
+
+/* Notification Peek */
+.di-peek {
+  spacing: 10px;
+  padding: 0 6px;
+  min-height: 28px;
+}
+.di-peek-icon {
+  icon-size: 26px;
+  color: #fff;
+}
+.di-peek-text {
+  max-width: 300px;
+}
+.di-peek-title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 10pt;
+}
+.di-peek-body {
+  color: #c4c4cc;
+  font-size: 9pt;
+}

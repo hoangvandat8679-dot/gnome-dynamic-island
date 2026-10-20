@@ -1,0 +1,17 @@
+{
+  "name": "Dynamic Island Hybrid",
+  "description": "An advanced iOS-style Dynamic Island for GNOME Shell featuring Apple Glassmorphism, Media Scrubber & Timeline, Notification Peek, Hardware Monitor (CPU/RAM), Pomodoro Timer, OSD indicators and global hotkeys.",
+  "uuid": "dynamic-island@bjagetic",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "50.1"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.dynamic-island",
+  "url": "https://github.com/hoangvandat8679-dot/gnome-dynamic-island",
+  "version": 3,
+  "version-name": "3.5-hybrid"
+}
